@@ -23,7 +23,9 @@ const questionData = [
     { id: "19", pid: "", oid: "17", parent: "", text: "市直医保" },
     { id: "20", pid: "", oid: "17", parent: "", text: "省直医保" },
     { id: "21", pid: "", oid: "17", parent: "", text: "其他类别" },
-    { id: "22", pid: "", oid: "17", parent: "", text: "异地就医" }
+    { id: "22", pid: "", oid: "17", parent: "", text: "异地就医" },
+
+    { id: "23", pid: "7", oid: "", parent: "21", text: "您是自费还是区公医" },
 ];
 
 export default questionData;
