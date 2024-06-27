@@ -27,7 +27,7 @@ const Questionnaire = ({ questionnaireTree }) => {
 
     return (
         <>
-            <NavBar back='返回' onBack={back}>广医三院医保答疑</NavBar>
+            <NavBar back='返回' onBack={back}>医保答疑</NavBar>
             <Question question={currentNode} options={currentNode.options} onAnswer={handleAnswer} />
         </>
     );

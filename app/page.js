@@ -6,7 +6,6 @@ import {listToTree} from '@/app/lib/util';
 
 export default function Home() {
   const questionnaireData = listToTree(questionData);
-  console.log("ff", questionnaireData);
   return (
     <>
       <Questionnaire questionnaireTree={questionnaireData} />
